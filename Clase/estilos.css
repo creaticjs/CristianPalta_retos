@@ -1,0 +1,68 @@
+body{
+    background: url("assets/img/Fondo/fondo.png");
+    /* background: #070741 url("assets/img/Fondo/fondo.png") no-repeat fixed center;  */
+    /* background-size: cover;
+    /* min-height: 478px; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;*/
+    width: 100%;
+    height: auto;
+    background-size: 1355px 700px;
+}
+
+.h1{
+    text-align:center; 
+    font-size:400%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+table.opciones
+{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align:center; 
+    font-size: 50 px;
+    
+}
+
+table.opciones4
+{
+    font-family: arial, sans-serif;
+    width: 100%;
+    
+    
+}
+
+th.opciones2
+{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 2px;
+    text-align:center;
+    font-size: 50 px; 
+}
+
+th.opciones3
+{
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 2px;
+    text-align:center; 
+    background-color: aliceblue;
+}
+
+div.contenedor
+{
+    background-color: aliceblue;
+}
+
+input.estilo1
+{
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    font-size: 50 px;
+}

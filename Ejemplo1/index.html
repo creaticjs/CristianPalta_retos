@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ahorcado</title>
+</head>
+
+<body>
+
+    <div>
+        <h1>Juego de ahorcado</h1>
+        <h1 id="msgfinal"></h1>
+        <h3 id="acierto"></h3>
+
+        <div>
+            <input type="text" id="palabra" value="" />
+            <canvas width="300" height="300" id="imgAhorcado"></canvas>
+            
+        </div>
+
+        <div>
+            <div>
+                <h2>Intentos restantes: <stron>6</stron></h2>
+            </div>
+            <br>
+            <div>
+                <input type="button" id="intento" value="Otro intento" onclick="teclado(this.value)" />
+                <input type="button" id="cambiar" value="Cambiar palabra" onclick="teclado(this.value)" />
+                <input type="button" id="pista" value="Dar una pista" onclick="teclado(this.value)" />
+            </div>
+        </div>
+        <br>
+        
+        <div>
+            <input type="button" id="A" value="A" onclick="teclado(this.value);" />
+            <input type="button" id="B" value="B" onclick="teclado(this.value);" />
+            <input type="button" id="C" value="C" onclick="teclado(this.value);" />
+            <input type="button" id="D" value="D" onclick="teclado(this.value);" />
+            <input type="button" id="E" value="E" onclick="teclado(this.value);" />
+            <input type="button" id="F" value="F" onclick="teclado(this.value);" />
+            <input type="button" id="G" value="G" onclick="teclado(this.value);" />
+            <input type="button" id="H" value="H" onclick="teclado(this.value);" />
+            <input type="button" id="I" value="I" onclick="teclado(this.value);" />
+
+            <input type="button" id="J" value="J" onclick="teclado(this.value);" />
+            <input type="button" id="K" value="K" onclick="teclado(this.value)" />
+            <input type="button" id="L" value="L" onclick="teclado(this.value)" />
+            <input type="button" id="M" value="M" onclick="teclado(this.value)" />
+            <input type="button" id="N" value="N" onclick="teclado(this.value)" />
+            <input type="button" id="Ñ" value="Ñ" onclick="teclado(this.value)" />
+            <input type="button" id="O" value="O" onclick="teclado(this.value)" />
+            <input type="button" id="P" value="P" onclick="teclado(this.value)" />
+            <input type="button" id="Q" value="Q" onclick="teclado(this.value)" />
+
+            <input type="button" id="R" value="R" onclick="teclado(this.value)" />
+            <input type="button" id="S" value="S" onclick="teclado(this.value)" />
+            <input type="button" id="T" value="T" onclick="teclado(this.value)" />
+            <input type="button" id="U" value="U" onclick="teclado(this.value)" />
+            <input type="button" id="V" value="V" onclick="teclado(this.value)" />
+            <input type="button" id="W" value="W" onclick="teclado(this.value)" />
+            <input type="button" id="X" value="X" onclick="teclado(this.value)" />
+            <input type="button" id="Y" value="Y" onclick="teclado(this.value)" />
+            <input type="button" id="Z" value="Z" onclick="teclado(this.value)" />
+
+        </div>
+
+        
+
+        <div>
+        
+    </div>
+
+    <script src="palabras.js"></script>
+    <script src="ahorcado.js"></script>
+</body>
+
+</html>
